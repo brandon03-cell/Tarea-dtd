@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "reglas.dtd"[
+    <!ATTLIST empleado departamento CDATA "General">
+]>
+
+<empresa>
+    <empleado departamento="Ventas">
+        <nombre>Daniel</nombre>
+        <id>69</id>
+        <cargo>Gerente</cargo>
+        <salario>5000€</salario>
+    </empleado>
+</empresa>
