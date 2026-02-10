@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE calendar SYSTEM "calendar.dtd">
+
+<calendar>
+    <event location="New York">
+        <title>Tech Conference</title>
+        <date>2024-10-15</date>
+        <description>Annual meeting about new software trends.</description>
+    </event>
+    <event>
+        <title>Team Lunch</title>
+        <date>2024-10-20</date>
+    </event>
+</calendar>

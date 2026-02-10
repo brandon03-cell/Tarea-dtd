@@ -1,0 +1,8 @@
+<!ELEMENT calendar (event+)>
+
+<!ELEMENT event (title, date, description?)>
+<!ATTLIST event location CDATA #IMPLIED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
