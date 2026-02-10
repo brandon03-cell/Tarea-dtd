@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE invoice SYSTEM "invoice.dtd">
+
+<invoice date="2024-05-22">
+    <customer>Daniel</customer>
+    <item>
+        <name>Keyboard</name>
+        <quantity>91</quantity>
+        <price>29.99</price>
+    </item>
+    <item>
+        <name>Mouse</name>
+        <quantity>69</quantity>
+        <price>15.99</price>
+    </item>
+</invoice>

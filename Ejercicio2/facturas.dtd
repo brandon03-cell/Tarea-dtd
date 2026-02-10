@@ -1,1 +1,0 @@
-<!ELEMENT factura (cliente, producto)>

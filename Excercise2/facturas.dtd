@@ -1,0 +1,7 @@
+<!ELEMENT invoice (customer, item+)>
+<!ATTLIST invoice fecha CDATA #REQUIRED>
+<!ELEMENT customer (#PCDATA)>
+<!ELEMENT item (name, quantity, price)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
