@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE empresa [
-    <!ELEMENT empresa (empleado+)>
-    <!ELEMENT empleado (nombre, id, cargo, salario)>
-    <!ELEMENT nombre (#PCDATA)>
+<!DOCTYPE company [
+    <!ELEMENT company (employee+)>
+    <!ELEMENT employee (name, id, position, salary)>
+    <!ELEMENT name (#PCDATA)>
     <!ELEMENT id (#PCDATA)>
-    <!ELEMENT cargo (#PCDATA)>
-    <!ELEMENT salario (#PCDATA)>
+    <!ELEMENT position (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
 ]>
 
-<empresa>
-    <empleado>
-        <nombre>Daniel</nombre>
+<company>
+    <employee>
+        <name>Daniel</name>
         <id>69</id>
-        <cargo>Gerente</cargo>
-        <salario>5000€</salario>
-    </empleado>
-</empresa>
+        <position>Gerente</position>
+        <salary>5000€</salary>
+    </employee>
+</company>
