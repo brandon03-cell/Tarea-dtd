@@ -1,6 +1,6 @@
-<!ELEMENT empresa (empleado+)>
-<!ELEMENT empleado (nombre, id, cargo, salario)>
-<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT company (employee+)>
+<!ELEMENT employee (name, id, position, salary)>
+<!ELEMENT name (#PCDATA)>
 <!ELEMENT id (#PCDATA)>
-<!ELEMENT cargo (#PCDATA)>
-<!ELEMENT salario (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>

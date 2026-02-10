@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE company SYSTEM "rules.dtd"[
-    <!ATTLIST employee departamento CDATA "General">
+    <!ATTLIST employee department CDATA "General">
 ]>
 
 <company>
-    <employee departamento="Ventas">
+    <employee department="Sales">
         <name>Daniel</name>
         <id>69</id>
         <position>Gerente</position>
